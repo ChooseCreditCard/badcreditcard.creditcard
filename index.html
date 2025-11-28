@@ -4,148 +4,241 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Bad Credit Cards – Rebuild After Defaults & Missed Payments</title>
-  <meta name="description"
-        content="See what card options exist for bad credit: secured cards, low-limit products and credit builder tools that help you rebuild after defaults or missed payments.">
+  <title>BadCreditcard.Creditcard – Credit Cards for Challenged Credit Explained</title>
+  <meta name="description" content="Understand how credit cards for bad or challenged credit are structured: pricing, limits, reporting, and how they can impact your credit file. Neutral, documentation-style overview." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://badcreditcard.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Bad Credit Cards – Rebuild After Defaults & Missed Payments" />
-  <meta property="og:description"
-        content="Understand your options with bad credit: how secured and credit builder cards work, and what issuers look at when you apply." />
+  <meta property="og:title" content="BadCreditcard.Creditcard – Cards for Challenged Credit Explained" />
+  <meta property="og:description" content="Learn how “bad credit” card products are documented: eligibility, pricing, reporting, and how they interact with credit score rebuild efforts." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://badcreditcard.creditcard/" />
-  <meta property="og:image" content="https://badcreditcard.creditcard/preview.png" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/styles.css" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BadCreditcard.Creditcard – Cards for Challenged Credit Explained" />
+  <meta name="twitter:description" content="Neutral explanation of how credit cards aimed at bad or challenged credit are designed, priced and reported." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-64FE63JQ3H');
   </script>
+
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Shared minisite styles -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 
-<body>
-<header class="nav">
-  <div class="brand">
-    <div class="cc-logo">CC</div>
-    <span>BadCreditCard.creditcard</span>
-  </div>
-  <nav class="links">
-    <a href="https://fin.creditcard/">Collection</a>
-    <a href="https://creditbuilder.creditcard/">Credit Builder</a>
-    <a href="https://choose.creditcard/">Choose</a>
-  </nav>
-</header>
-
-<div class="wrap">
-
-  <!-- HERO -->
-  <section class="hero">
-    <h1>Bad Credit Card Options</h1>
-    <p>When your credit is in bad shape, the goal is simple: rebuild.</p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=badcredit_spoke">
-      Compare Cards for Bad Credit
-    </a>
-  </section>
-
-  <!-- What “bad credit” usually means -->
-  <section class="section">
-    <h2>What “bad credit” usually means</h2>
-    <p class="small">
-      “Bad credit” often means more than just a low score. Issuers may see:
-    </p>
-    <ul class="list">
-      <li>• Multiple late or missed payments</li>
-      <li>• Accounts in collections</li>
-      <li>• Charge-offs or defaults</li>
-      <li>• Very high utilization across cards</li>
-    </ul>
-    <p class="small">
-      That doesn’t mean you’re locked out forever. It just means you need targeted tools.
-    </p>
-  </section>
-
-  <!-- Best card types -->
-  <section class="section">
-    <h2>Card types that still work with bad credit</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Secured credit cards</h3>
-        <p class="small">
-          A cash deposit reduces issuer risk and makes approval more likely.
-        </p>
+<body class="bg-slate-950 text-slate-100">
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">BadCreditcard.Creditcard</div>
+          <div class="brand-subtitle">Cards for Challenged Credit Explained</div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Credit builder cards</h3>
-        <p class="small">
-          Products designed for rebuilding, with clear upgrade paths if you use them well.
-        </p>
-      </div>
-      <div class="card">
-        <h3>Subprime unsecured cards</h3>
-        <p class="small">
-          Higher interest, but still a line of credit if used carefully.
-        </p>
-      </div>
-      <div class="card">
-        <h3>Store & retail cards</h3>
-        <p class="small">
-          Can be easier to get, but should be used sparingly and paid in full.
-        </p>
-      </div>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#mechanics">How They Work</a>
+        <a href="#compare">Compare</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- Rebuild strategy -->
-  <section class="section">
-    <h2>Rebuild strategy with bad credit</h2>
-    <ul class="list">
-      <li>• Start with one rebuilding product, not many at once</li>
-      <li>• Pay every bill on time — even one late payment slows progress</li>
-      <li>• Keep usage low: under 30% of your limit, lower if possible</li>
-      <li>• Avoid new non-essential debt while you repair your history</li>
-    </ul>
-  </section>
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      BadCreditcard.Creditcard
+    </div>
 
-  <!-- What to expect from issuers -->
-  <section class="section">
-    <h2>What to expect from issuers</h2>
-    <p class="small">
-      With bad credit, issuers typically offer:
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How Credit Cards for Bad or Challenged Credit Are Structured</h1>
+        <p class="hero-lead">
+          Some credit card products are designed for applicants with limited, damaged or recovering credit histories. This page explains how these cards are documented — pricing, limits, reporting and risk controls — in neutral, educational language.
+        </p>
+        <a class="cta" href="https://choose.creditcard/credit-score/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Explore the Credit Score &amp; Rebuild hub
+        </a>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="overview" class="section">
+      <h2>What Is a “Bad Credit” Card in Documentation?</h2>
+      <p>Marketing terms like “for bad credit” or “for challenged credit” are informal labels. In documentation, issuers describe these products using eligibility ranges, risk-based pricing and underwriting criteria rather than labels.</p>
+      <p>Typical design goals are to provide a usable payment tool while managing higher default risk for the issuer. That balance shows up in credit limits, fees, APR ranges and how the card is reported to credit bureaus.</p>
+    </section>
+
+    <!-- Mechanics -->
+    <section id="mechanics" class="section">
+      <h2>How Cards for Challenged Credit Typically Work</h2>
+      <p>While details differ, many cards aimed at bad or challenged credit share common structural features:</p>
+      <ul class="list">
+        <li><strong>Lower initial credit limits</strong> – starting limits can be relatively small and may increase only after review.</li>
+        <li><strong>Risk-based APR</strong> – purchase APRs are often at the higher end of the issuer’s pricing grid.</li>
+        <li><strong>Fees and charges</strong> – annual fees, monthly maintenance fees or program fees may apply, depending on jurisdiction.</li>
+        <li><strong>Reporting practices</strong> – many products are designed to report payment behaviour to one or more credit bureaus.</li>
+        <li><strong>Account reviews</strong> – documentation may describe periodic reviews for limit increases or eligibility for other products.</li>
+      </ul>
+      <p>Some cards in this category are unsecured, while others may be partially or fully secured by a deposit, depending on the design.</p>
+    </section>
+
+    <section class="section">
+      <h2>Risk Controls, Fees and Behaviour Signals</h2>
+      <p>Because these products target higher-risk segments, issuers use multiple controls to manage exposure:</p>
+      <ul class="list">
+        <li>Relatively low starting limits and caps on cash advances.</li>
+        <li>Automated fraud and risk monitoring on transactions and payments.</li>
+        <li>Clear late-fee and returned-payment fee structures.</li>
+        <li>Potential account closure after extended delinquency or non-use.</li>
+      </ul>
+      <p>Documentation focuses on when fees apply, how interest is calculated, and which behaviours may trigger additional reviews.</p>
+    </section>
+
+    <section class="section">
+      <h2>How These Cards Interact With Credit Rebuild Efforts</h2>
+      <p>From the perspective of a credit file, cards aimed at bad or challenged credit can provide new data points over time. Issuer and bureau practices vary, but documentation often notes that:</p>
+      <ul class="list">
+        <li>On-time payments are typically reported as positive history.</li>
+        <li>Missed or late payments may be reported as delinquencies.</li>
+        <li>High utilisation (balances close to the limit) can be visible in reported data.</li>
+        <li>Account closures and charge-offs are recorded according to bureau rules.</li>
+      </ul>
+      <p>This page does not predict individual scoring outcomes; it only highlights how card usage can show up in credit-file data.</p>
+    </section>
+
+    <!-- Comparison table -->
+    <section id="compare" class="section">
+      <h2>Comparing Cards Aimed at Bad or Challenged Credit</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>What to Check</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Type of Product</td>
+              <td>Secured vs unsecured vs hybrid</td>
+              <td>Determines whether a deposit is required and how limits are set.</td>
+            </tr>
+            <tr>
+              <td>APR &amp; Fees</td>
+              <td>Purchase APR, annual fees, monthly fees, other charges</td>
+              <td>Shows the total cost structure beyond headline features.</td>
+            </tr>
+            <tr>
+              <td>Reporting</td>
+              <td>Which bureaus receive data and how often</td>
+              <td>Influences how quickly behaviour can appear in credit files.</td>
+            </tr>
+            <tr>
+              <td>Limit Management</td>
+              <td>Rules for increases, reviews and reductions</td>
+              <td>Explains how the issuer may respond to long-term usage patterns.</td>
+            </tr>
+            <tr>
+              <td>Upgrade Path</td>
+              <td>Eligibility for secured-to-unsecured or product changes</td>
+              <td>Shows whether the card can lead to different products over time.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">
+        For broader educational material on credit scores and rebuild strategies, visit
+        <a href="https://choose.creditcard/credit-score/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          the Credit Score &amp; Rebuild hub on Choose.Creditcard
+        </a>.
+      </p>
+    </section>
+
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Related Credit Score &amp; Rebuild Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://creditscore.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=cluster_creditscore">
+          <h3>CreditScore.Creditcard</h3>
+          <p>How card behaviour can appear in credit reports and scoring models.</p>
+        </a>
+        <a class="cluster-card" href="https://creditbuilder.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=cluster_creditbuilder">
+          <h3>CreditBuilder.Creditcard</h3>
+          <p>Overview of products and structures designed to support rebuilding.</p>
+        </a>
+        <a class="cluster-card" href="https://poorcreditcard.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=cluster_poorcreditcard">
+          <h3>PoorCreditcard.Creditcard</h3>
+          <p>Documentation-style view of cards targeted at limited or thin files.</p>
+        </a>
+        <a class="cluster-card" href="https://securedcard.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=cluster_securedcard">
+          <h3>SecuredCard.Creditcard</h3>
+          <p>How deposit-based secured cards are structured and documented.</p>
+        </a>
+        <a class="cluster-card" href="https://debits.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=cluster_debits">
+          <h3>Debits.Creditcard</h3>
+          <p>Contrast between debit transactions and credit-based products.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        BadCreditcard.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single concept in neutral, documentation-style language and then links to broader educational hubs.
+      </p>
+      <p class="small">
+        We do not issue cards, make eligibility decisions or provide personalized recommendations. This page summarizes how cards aimed at bad or challenged credit are typically described in public documentation.
+      </p>
+      <p class="small">
+        This site is informational only and does not provide financial, investment, tax or legal advice. Always rely on official product terms and consider seeking independent guidance for your specific situation.
+      </p>
+
+      <!-- Credit-score hub snippet -->
+      <p class="text-xs text-slate-500 mt-6">
+        For educational explanations of how card usage interacts with your file, see the
+        <a href="https://choose.creditcard/credit-score/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=hub_credit_score"
+           class="font-medium hover:text-slate-900">
+          Credit Score &amp; Rebuild hub
+        </a>
+        on <a href="https://choose.creditcard/" class="font-medium hover:text-slate-900">Choose.Creditcard</a>.
+      </p>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Want to See Credit Rebuild Topics in One Place?</h2>
+      <p class="small">
+        Use BadCreditcard.Creditcard to understand how these products are structured — then visit the Credit Score &amp; Rebuild hub on Choose.Creditcard to see how card behaviour fits into a wider credit-file context.
+      </p>
+      <a class="cta" href="https://choose.creditcard/credit-score/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to the Credit Score &amp; Rebuild hub
+      </a>
+    </section>
+  </main>
+
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
     </p>
-    <ul class="list">
-      <li>• Lower starting limits</li>
-      <li>• Higher APR (interest)</li>
-      <li>• Fewer perks at the beginning</li>
-      <li>• Upgrade or review after 6–24 months of good behavior</li>
-    </ul>
-  </section>
-
-  <!-- CTA -->
-  <section class="section">
-    <h2>Find realistic options for bad credit</h2>
-    <p class="small">
-      BadCreditCard.creditcard explains the landscape.  
-      To see actual card products that may accept bad credit and offer upgrade paths, go to:
-    </p>
-    <a class="cta"
-       href="https://choose.creditcard/?utm_source=badcreditcard.creditcard&utm_medium=referral&utm_campaign=badcredit_spoke">
-      Open Choose.Creditcard
-    </a>
-  </section>
-
-  <footer class="footer">
-    Part of <strong>The CreditCard Collection</strong> — by ronarn  
-    <br>Contact: <a href="mailto:support@ronarn.com">support@ronarn.com</a>
   </footer>
-</div>
 </body>
 </html>
